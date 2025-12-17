@@ -1,0 +1,104 @@
+.bg-nav {
+    background-color: #2C3E50;
+}
+
+.bg-cp {
+    background-color: #1A252F;
+}
+
+.bg-main {
+    background-color: #1ABC9C;
+}
+
+.min-vh-85 {
+    min-height: 85vh;
+}
+
+.pt-120 {
+    padding-top: 120px;
+}
+
+.t-port {
+    color: #2C3E50;
+}
+
+/* navbar */
+
+.navbar-nav .nav-link.active {
+    border: 1px solid transparent;
+    border-radius: 7px;
+    padding: 2px;
+    background-color: #1ABC9C;
+}
+/* navbar model */
+.navbar {
+    transition: padding 0.5s ease-in-out;
+}
+
+/* Home content */
+
+.icon::before {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 4px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.icon::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 4px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+/* potfolio section */
+
+.overlay {
+    background-color: rgba(26, 188, 156, 0.9);
+    opacity: 0;
+    transition: opacity 0.7s;
+}
+
+.group:hover .overlay {
+    opacity: 1;
+}
+
+.icon2::before {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 4px;
+    background-color: #2C3E50;
+    border-radius: 5px;
+}
+
+.icon2::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 4px;
+    background-color: #2C3E50;
+    border-radius: 5px;
+}
+
+/* portfolio model */
+.model-container{
+    background-color: rgba(13, 110, 253, 0.25);
+    z-index: 9999;
+}
+.seleted img{
+    width: 600px;
+}
+
+/* contact section */
+
+.button-form {
+    background-color: #1abc9c !important;
+    border: none;
+}
+
+
